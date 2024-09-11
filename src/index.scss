@@ -1,0 +1,22 @@
+@import "../src/assets/css/style.css";
+//simonwep colorpicker
+@import "@simonwep/pickr/dist/themes/classic.min.css";
+@import "@simonwep/pickr/dist/themes/monolith.min.css";
+@import "@simonwep/pickr/dist/themes/nano.min.css";
+
+.custom-scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scrollbar-default::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar-default::-webkit-scrollbar-thumb {
+  background-color: #9ca3af; /* Gray */
+  border-radius: 9999px;
+}
+
+.custom-scrollbar-default:hover::-webkit-scrollbar-thumb {
+  background-color: #6b7280; /* Darker Gray */
+}
